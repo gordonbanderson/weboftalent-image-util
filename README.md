@@ -67,7 +67,7 @@ Exif data is returned in a manner suitable for renering as part of a template.  
 ## Making a Greyscale Image
 A similar effect is possible with modern browsers using CSS and Javascript, but it may be necessary to generate server side monochrome images.  The parameters are the relative densities of red, green and blue followed by the width in pixels.
 
-	<% control Greyscale(200 30 80 200) %>
+	<% control ThePhoto.Greyscale(200 30 80 200) %>
 	<img class="greyscale" src="$URL"/>
 	<% end_control %>
 
